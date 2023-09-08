@@ -1,26 +1,20 @@
-// Assertion
+// 인터페이스(Interface)
+// 함수 타입 - 호출 시그니처(Call Signature)
 
-// 1)
-const el = document.querySelector('body') as HTMLBodyElement
-if (el) {
-  el.textContent = 'Hello world'
+interface GetName {
+  (message: string): string
 }
-
-// 2)
-function getNumber(x: number | null | undefined) {
-  if (x) {
-    return Number(x.toFixed(2))
+interface User {
+  name: string
+  age: number
+  getName: GetName
+}
+const apple: User = {
+  name: 'Apple',
+  age: 25,
+  getName(message: string) {
+    console.log(message)
+    return this.name
   }
 }
-getNumber(3.141592)
-getNumber(null)
-
-// 3)
-function getValue(x: string | number, isNumber: boolean) {
-  if (isNumber) {
-    return Number((x as number).toFixed(2))
-  }
-  return (x as string).toUpperCase()
-}
-getValue('hello world', false) // 'HELLO WORLD'
-getValue(3.141592, true) // 3.14
+apple.getName('Hello')
