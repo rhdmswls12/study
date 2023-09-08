@@ -6,7 +6,7 @@
 53C:\Users\LG\Desktop\ts-practice\node_modules\css-tree133384610596396638 1
 67C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\optimizer-svgo133384610421354902 1
 76C:\Users\LG\Desktop\ts-practice\node_modules\caniuse-lite\data\regions\KN.js133384610622835905 0
-36C:\Users\LG\Desktop\ts-practice\dist133384619297172474 1
+36C:\Users\LG\Desktop\ts-practice\dist133386248550089222 1
 112C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\compile.d.ts133384610483129634 0
 42C:\Users\LG\Desktop\ts-practice\index.html133384617156981296 0
 106C:\Users\LG\Desktop\ts-practice\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaQueryList.cjs133384610531520192 0
@@ -53,7 +53,7 @@
 66C:\Users\LG\Desktop\ts-practice\node_modules\css-tree\cjs\data.cjs133384610484625638 0
 62C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\cache\lib133384610459353251 1
 70C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\markdown-ansi\src133384610417734580 1
-43C:\Users\LG\Desktop\ts-practice\src\main.ts133384619183953004 0
+43C:\Users\LG\Desktop\ts-practice\src\main.ts133386248545132167 0
 77C:\Users\LG\Desktop\ts-practice\node_modules\.bin\download-msgpackr-prebuilds133384610682077421 0
 112C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\trace.js133384610564302502 0
 108C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\stringifier.js133384610525436460 0
@@ -2079,7 +2079,7 @@
 93C:\Users\LG\Desktop\ts-practice\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133384610506776384 0
 112C:\Users\LG\Desktop\ts-practice\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages133384610682067446 0
 76C:\Users\LG\Desktop\ts-practice\node_modules\caniuse-lite\data\regions\ET.js133384610599348743 0
-47C:\Users\LG\Desktop\ts-practice\dist\index.html133384619297052793 0
+47C:\Users\LG\Desktop\ts-practice\dist\index.html133386248549839879 0
 117C:\Users\LG\Desktop\ts-practice\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test133384610682227015 0
 83C:\Users\LG\Desktop\ts-practice\node_modules\lmdb\node_modules\msgpackr\index.d.cts133384610440772963 0
 78C:\Users\LG\Desktop\ts-practice\node_modules\@parcel\core\test\fixtures\parcel133384610589146031 1
@@ -6089,5 +6089,5 @@
 62C:\Users\LG\Desktop\ts-practice\node_modules\.bin\tsserver.cmd133384610682147229 0
 76C:\Users\LG\Desktop\ts-practice\node_modules\.bin\update-browserslist-db.cmd133384610682147229 0
 76C:\Users\LG\Desktop\ts-practice\node_modules\.bin\update-browserslist-db.ps1133384610682127292 0
-54C:\Users\LG\Desktop\ts-practice\dist\index.b7a05eb9.js133384619297092693 0
-58C:\Users\LG\Desktop\ts-practice\dist\index.b7a05eb9.js.map133384619297152526 0
+54C:\Users\LG\Desktop\ts-practice\dist\index.b7a05eb9.js133386248549839879 0
+58C:\Users\LG\Desktop\ts-practice\dist\index.b7a05eb9.js.map133386248549989480 0
