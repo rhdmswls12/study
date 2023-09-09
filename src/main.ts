@@ -1,44 +1,27 @@
-// 인터페이스(Interface)
-// 인덱스 가능 타입 - 인덱스 시그니처(Index Signature)
+// 타입 별칭(Alias)
 
-// 배열
-interface Fruits {
-  [item: number]: string
-}
-const fruits: Fruits = ['Apple', 'Banana', 'Cherry']
-console.log(fruits)
-
-//객체
-interface User {
-  [key: string]: unknown
-  name: string
-  age: number
-}
-const apple: User = {
-  name: 'Apple',
-  age: 25
-}
-apple['isValid'] = true
-apple['emails'] = ['thesecond@gmail.com', 'test@gmail.com']
-console.log(apple)
-
-interface Payload {
-  [key: string]: unknown
-}
-function logValues(payload: Payload) {
-  for (const key in payload) {
-    console.log(payload[key])
-  }
-}
-interface Users {
-  [key: string]: unknown
-  name: string
-  age: number
+type TypeA = string
+type TypeB = string | number | boolean
+type User = {
+  name: string,
+  age: number,
   isValid: boolean
-}
-const banana: Users = {
-  name: 'Banana',
-  age: 20,
+} | [string, number, boolean] // 객체 타입 또는 튜플 타입으로 지정
+
+const userA: User = {
+  name: 'Apple',
+  age: 25,
   isValid: true
 }
-logValues(banana)
+const userB: User = ['Banana', 20, false]
+
+function someFunc(param: TypeB): TypeA {
+  switch(typeof param) {
+    case 'string':
+      return param.toUpperCase()
+    case 'number':
+      return param.toFixed(2)
+    default:
+      return 'Boolean' 
+  }
+}
