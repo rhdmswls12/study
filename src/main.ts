@@ -1,27 +1,15 @@
-// 타입 별칭(Alias)
+// 함수 - 명시적 this
 
-type TypeA = string
-type TypeB = string | number | boolean
-type User = {
-  name: string,
-  age: number,
-  isValid: boolean
-} | [string, number, boolean] // 객체 타입 또는 튜플 타입으로 지정
-
-const userA: User = {
-  name: 'Apple',
-  age: 25,
-  isValid: true
+interface Cat {
+  name: string
+  age: number
 }
-const userB: User = ['Banana', 20, false]
-
-function someFunc(param: TypeB): TypeA {
-  switch(typeof param) {
-    case 'string':
-      return param.toUpperCase()
-    case 'number':
-      return param.toFixed(2)
-    default:
-      return 'Boolean' 
-  }
+const cat: Cat = {
+  name: 'Lucy',
+  age: 2
 }
+
+function hello(this: Cat, message: string) {
+  console.log(`Hello ${this.name}, ${message}`) 
+}
+hello.call(cat, 'You are pretty awesome!')
