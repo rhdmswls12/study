@@ -574,34 +574,14 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"jeorp":[function(require,module,exports) {
-// 인터페이스(Interface)
-// 인덱스 가능 타입 - 인덱스 시그니처(Index Signature)
-// 배열
-const fruits = [
-    "Apple",
-    "Banana",
-    "Cherry"
-];
-console.log(fruits);
-const apple = {
-    name: "Apple",
-    age: 25
-};
-apple["isValid"] = true;
-apple["emails"] = [
-    "thesecond@gmail.com",
-    "test@gmail.com"
-];
-console.log(apple);
-function logValues(payload) {
-    for(const key in payload)console.log(payload[key]);
+function 함수(x) {
+    return x.length;
 }
-const banana = {
-    name: "Banana",
-    age: 20,
-    isValid: true
-};
-logValues(banana);
+let a = 함수("100");
+let b = 함수({
+    length: 1234
+});
+console.log(a, b);
 
 },{}]},["fUTXd","jeorp"], "jeorp", "parcelRequiref7b3")
 
