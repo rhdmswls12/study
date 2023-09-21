@@ -1,6 +1,21 @@
-import _ from 'lodash'
-
-const str = 'the brown fox jumps over the lazy dog'
-
-console.log(_.camelCase(str))
-console.log(_.snakeCase(str))
+class User<P> {
+  constructor(public payload: P) {}
+  getPayload() {
+    return this.payload
+  }
+}
+interface UserAType {
+  name: string
+  age: number
+  isValid: boolean
+}
+interface UserBType {
+  name: string
+  age: number
+  emails: string[]
+}
+const apple = new User({
+  name: 'apple',
+  age: 18,
+  isValid: true
+})

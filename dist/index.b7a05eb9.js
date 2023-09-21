@@ -574,14 +574,19 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"jeorp":[function(require,module,exports) {
-function 함수(x) {
-    return x.length;
+class User {
+    constructor(payload){
+        this.payload = payload;
+    }
+    getPayload() {
+        return this.payload;
+    }
 }
-let a = 함수("100");
-let b = 함수({
-    length: 1234
+const apple = new User({
+    name: "apple",
+    age: 18,
+    isValid: true
 });
-console.log(a, b);
 
 },{}]},["fUTXd","jeorp"], "jeorp", "parcelRequiref7b3")
 
